@@ -1,0 +1,5 @@
+My API ID For Weather APP -> 84c1449aa31638d6d9ee99eb8473d011
+
+
+
+I Use This Link Of API -> https://api.openweathermap.org/data/2.5/weather?q={city}&appid=84c1449aa31638d6d9ee99eb8473d011

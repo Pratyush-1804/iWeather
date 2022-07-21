@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Arima:wght@100;200&family=Dancing+Script:wght@400;500&family=Diplomata+SC&family=Edu+SA+Beginner&family=Edu+TAS+Beginner&family=Indie+Flower&family=Jim+Nightshade&family=Luxurious+Roman&family=Macondo&family=Merriweather:ital,wght@0,300;0,400;1,300&family=Noto+Serif&family=Pacifico&family=Splash&family=Staatliches&family=Tapestry&display=swap');
+
+*{
+      margin: 0;
+      padding: 0;
+      
+}
+body{
+      background: url("https://images.unsplash.com/photo-1470770841072-f978cf4d019e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80") no-repeat center center/cover;
+}
+
+.container{
+      margin-left: auto;
+      margin-right: auto;
+      width: 40vw;
+      text-align: center;
+      background-color: transparent;
+      border-radius: 8px;
+      box-shadow: 8px 8px 20px black;
+      padding: 20px;
+      margin-top: 20vh;
+}
+
+.input{
+      width: 80%;
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+}
+
+.input input{
+      width: 95%;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 5px;
+      font-size: 20px;
+      border: none;
+      border: 2px solid gray;
+      border-radius: 8px;
+      font-family: 'Arima', cursive;
+      font-weight: 600;
+}
+
+.logo{
+      width: 100%;
+      text-align: center;
+      font-family: 'Arima', cursive;
+      margin: 10px;
+      color: rgb(255, 255, 255);
+      font-size: 32px;
+}
+
+.information{
+      padding: 20px;
+}
+
+.location{
+      color: rgb(255, 255, 255);
+      justify-content: space-around;
+      font-family: 'Arima', cursive;
+      letter-spacing: 1.2px;
+      font-size: 30px;
+      margin: 10px;
+}
+
+.temperature{
+      padding: 10px;
+      font-family: 'Arima', cursive;
+      color: rgb(255, 255, 255);
+}
+
+.min-max-temperature{
+      margin: 10px;
+      font-family: 'Arima', cursive;
+      color: rgb(255, 255, 255);
+}
